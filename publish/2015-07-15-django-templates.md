@@ -62,6 +62,7 @@ def blog_index(request):
 ```
 
 * 再次访问 `http://10.0.0.46:8000/blog/`，可看到输出：
+
 ```text
 just for test.
 

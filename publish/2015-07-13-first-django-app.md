@@ -25,7 +25,7 @@ mysite/
 ```shell
 $ python manage.py runserver 0.0.0.0:8000
 ```
-效果图如下：（默认为英文，要显示中文可在 [settings.py](/blog/django/django_basic_settings.html) 中进行设置）
+效果图如下：（默认为英文，要显示中文可在 [settings.py](2015-07-14-django-basic-settings.html) 中进行设置）
 
 ![](/img/first_django_app_001.png)
  
@@ -42,13 +42,13 @@ $ python manage.py startapp blog
 ```shell
 (env_django)shengan@ubuntu:~/mysite$ tree blog/
 blog/
-├── admin.py			## 与 django 的管理页面有关
-├── __init__.py			## 空文件，在 python 程序中很常见，此处仅仅代表同目录下所有 py 文件为一个模块
-├── migrations			## 数据库操作记录
+├── admin.py        ## 与 django 的管理页面有关
+├── __init__.py     ## 空文件，在 python 程序中很常见，此处仅仅代表同目录下所有 py 文件为一个模块
+├── migrations      ## 数据库操作记录
 │   └── __init__.py
-├── models.py			## 模型定义文件
-├── tests.py			## 写测试时会用到
-└── views.py			## 视图文件
+├── models.py       ## 模型定义文件
+├── tests.py        ## 写测试时会用到
+└── views.py        ## 视图文件
 
 1 directory, 6 files
 ```

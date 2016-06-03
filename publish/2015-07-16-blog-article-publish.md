@@ -113,7 +113,7 @@ class ArticlePublishForm(forms.Form):
         article.save()
 ```
 
-`Article` model 是在[前面章节](/blog/django/django_models.html)讲到过的，这里继续沿用。
+`Article` model 是在[前面章节](2015-07-15-django-models.html)讲到过的，这里继续沿用。
 
 现在来说说 django 中的 form 表单。
 
@@ -191,7 +191,7 @@ save 函数将做如下几项工作：
 
 ###5. 查看效果
 
-于浏览器地址栏中输入地址：http://192.168.1.221:8000**/blog/article/publish**（替换成你自己的 ip 和端口号）
+于浏览器地址栏中输入地址：http://192.168.1.221:8000**/blog/article/publish** （替换成你自己的 ip 和端口号）
 
 效果图如下：
 

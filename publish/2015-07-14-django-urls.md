@@ -6,11 +6,11 @@ url 函数有 5 个参数：
 ```python
 url(regex, view, kwargs=None, name=None, prefix='')
 
-regex		## 正则表达式，用来匹配 url 地址（必须）
-view		## 此 url 对应的视图函数（必须）
-kwargs		## 附加参数（字典类型），传递给视图函数（可选）
-name		## 此 url 的名称，在模板中用的比较多，且非常有用（可选）
-prefix		## 前缀，一般不用（可选）
+regex           ## 正则表达式，用来匹配 url 地址（必须）
+view            ## 此 url 对应的视图函数（必须）
+kwargs          ## 附加参数（字典类型），传递给视图函数（可选）
+name            ## 此 url 的名称，在模板中用的比较多，且非常有用（可选）
+prefix          ## 前缀，一般不用（可选）
 ```
 
 正则表达式不熟悉也没有关系，django 中用到的不多。
@@ -23,7 +23,7 @@ prefix		## 前缀，一般不用（可选）
 ###一般开发中的做法
 在创建 project 的时候，在 mysite 目录中生成了 urls.py 文件，此文件为整个项目 url 分发的入口。
 
-在[之前](/blog/django/first_django_app.html)，我们添加 url 时，仅仅是简单的将 blog 的 url 加入了其中；然而，在一般情况下，我们都会单独为 blog 新建一个 urls.py 文件。
+在[之前](2015-07-13-first-django-app.html)，我们添加 url 时，仅仅是简单的将 blog 的 url 加入了其中；然而，在一般情况下，我们都会单独为 blog 新建一个 urls.py 文件。
 ```shell
 shengan@ubuntu:~/mysite/mysite$ vim urls.py
 ```

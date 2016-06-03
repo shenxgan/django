@@ -14,7 +14,9 @@ url('^', include('django.contrib.auth.urls'))
 ```
 或者，你也可以改成：
 
+```python
 url(r'^accounts/', include('django.contrib.auth.urls'))
+```
 
 
 它包含了如下的这些 url：

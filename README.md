@@ -1,4 +1,19 @@
-My Awesome Book
+Django 博客入门
 =======
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+
+## 1. 主要内容
+
+内容如书名（还算不上是真正意义上的书）一样，记录的是我在学习和书写博客程序时的实践，是一个分享。
+
+主要内容是 Djnago 的简单入门和简单的博客相关的知识。
+
+P.S. 在刚开始我大言不惭的称我的这一个小分享为 Django 教程，文章内容只是涉及到 Django 的一小部分功能，所以叫教程并不合适。现在想起来还真是不知道天高地厚～～
+
+## 2. 适合读者
+
+最适合的是想入门 Django 而又不知道从何开始的初学者。更具体的在文章正文中会有提及。
+
+## 3. 作者寄语
+
+真心希望它能够带给你帮助，同时也希望各位在学习后也可以做出一个分享 ^_^

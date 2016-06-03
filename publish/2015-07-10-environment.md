@@ -95,7 +95,7 @@ pip install Django==1.8.3	##我使用的就是这个版本
 * 推荐你使用 [github](https://github.com/)
 * 到 [https://github.com/github/gitignore](https://github.com/github/gitignore) 下载 Python.gitignore 文件（此文件也可在 github 中创建一个项目的时候选择，选择后不必再下载）。或使用 wget 直接进行下载
 
-		wget https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
+        wget https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
 
-	将此文件移到 .git 目录并重命名为 .gitignore  （目的是为了在 git 版本库中忽略一些不必要的非代码文件，比如 pyc 文件等）
+    将此文件移到 .git 目录并重命名为 .gitignore  （目的是为了在 git 版本库中忽略一些不必要的非代码文件，比如 pyc 文件等）
 {% endraw %}
