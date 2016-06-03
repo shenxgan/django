@@ -552,18 +552,18 @@
 <p>url &#x51FD;&#x6570;&#x6709; 5 &#x4E2A;&#x53C2;&#x6570;&#xFF1A;</p>
 <pre><code class="lang-python">url(regex, view, kwargs=<span class="hljs-keyword">None</span>, name=<span class="hljs-keyword">None</span>, prefix=<span class="hljs-string">&apos;&apos;</span>)
 
-regex        <span class="hljs-comment">## &#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x7528;&#x6765;&#x5339;&#x914D; url &#x5730;&#x5740;&#xFF08;&#x5FC5;&#x987B;&#xFF09;</span>
-view        <span class="hljs-comment">## &#x6B64; url &#x5BF9;&#x5E94;&#x7684;&#x89C6;&#x56FE;&#x51FD;&#x6570;&#xFF08;&#x5FC5;&#x987B;&#xFF09;</span>
-kwargs        <span class="hljs-comment">## &#x9644;&#x52A0;&#x53C2;&#x6570;&#xFF08;&#x5B57;&#x5178;&#x7C7B;&#x578B;&#xFF09;&#xFF0C;&#x4F20;&#x9012;&#x7ED9;&#x89C6;&#x56FE;&#x51FD;&#x6570;&#xFF08;&#x53EF;&#x9009;&#xFF09;</span>
-name        <span class="hljs-comment">## &#x6B64; url &#x7684;&#x540D;&#x79F0;&#xFF0C;&#x5728;&#x6A21;&#x677F;&#x4E2D;&#x7528;&#x7684;&#x6BD4;&#x8F83;&#x591A;&#xFF0C;&#x4E14;&#x975E;&#x5E38;&#x6709;&#x7528;&#xFF08;&#x53EF;&#x9009;&#xFF09;</span>
-prefix        <span class="hljs-comment">## &#x524D;&#x7F00;&#xFF0C;&#x4E00;&#x822C;&#x4E0D;&#x7528;&#xFF08;&#x53EF;&#x9009;&#xFF09;</span>
+regex           <span class="hljs-comment">## &#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x7528;&#x6765;&#x5339;&#x914D; url &#x5730;&#x5740;&#xFF08;&#x5FC5;&#x987B;&#xFF09;</span>
+view            <span class="hljs-comment">## &#x6B64; url &#x5BF9;&#x5E94;&#x7684;&#x89C6;&#x56FE;&#x51FD;&#x6570;&#xFF08;&#x5FC5;&#x987B;&#xFF09;</span>
+kwargs          <span class="hljs-comment">## &#x9644;&#x52A0;&#x53C2;&#x6570;&#xFF08;&#x5B57;&#x5178;&#x7C7B;&#x578B;&#xFF09;&#xFF0C;&#x4F20;&#x9012;&#x7ED9;&#x89C6;&#x56FE;&#x51FD;&#x6570;&#xFF08;&#x53EF;&#x9009;&#xFF09;</span>
+name            <span class="hljs-comment">## &#x6B64; url &#x7684;&#x540D;&#x79F0;&#xFF0C;&#x5728;&#x6A21;&#x677F;&#x4E2D;&#x7528;&#x7684;&#x6BD4;&#x8F83;&#x591A;&#xFF0C;&#x4E14;&#x975E;&#x5E38;&#x6709;&#x7528;&#xFF08;&#x53EF;&#x9009;&#xFF09;</span>
+prefix          <span class="hljs-comment">## &#x524D;&#x7F00;&#xFF0C;&#x4E00;&#x822C;&#x4E0D;&#x7528;&#xFF08;&#x53EF;&#x9009;&#xFF09;</span>
 </code></pre>
 <p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4E0D;&#x719F;&#x6089;&#x4E5F;&#x6CA1;&#x6709;&#x5173;&#x7CFB;&#xFF0C;django &#x4E2D;&#x7528;&#x5230;&#x7684;&#x4E0D;&#x591A;&#x3002;</p>
 <p>&#x82E5;&#x60F3;&#x4E86;&#x89E3; python &#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x53EF;&#x53C2;&#x7167;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#xFF1A;<a href="http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html" _target="blank">http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html</a></p>
 <p>&#xFF08;&#x6587;&#x7AE0;&#x672B;&#x5C3E;&#x4F1A;&#x8D34;&#x51FA;&#x4ED6;&#x90A3;&#x5F20;&#x7ECF;&#x5178;&#x7684;&#x56FE;&#x7247;&#xFF09;</p>
 <h3 id="&#x4E00;&#x822C;&#x5F00;&#x53D1;&#x4E2D;&#x7684;&#x505A;&#x6CD5;">&#x4E00;&#x822C;&#x5F00;&#x53D1;&#x4E2D;&#x7684;&#x505A;&#x6CD5;</h3>
 <p>&#x5728;&#x521B;&#x5EFA; project &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5728; mysite &#x76EE;&#x5F55;&#x4E2D;&#x751F;&#x6210;&#x4E86; urls.py &#x6587;&#x4EF6;&#xFF0C;&#x6B64;&#x6587;&#x4EF6;&#x4E3A;&#x6574;&#x4E2A;&#x9879;&#x76EE; url &#x5206;&#x53D1;&#x7684;&#x5165;&#x53E3;&#x3002;</p>
-<p>&#x5728;<a href="../blog/django/first_django_app.html">&#x4E4B;&#x524D;</a>&#xFF0C;&#x6211;&#x4EEC;&#x6DFB;&#x52A0; url &#x65F6;&#xFF0C;&#x4EC5;&#x4EC5;&#x662F;&#x7B80;&#x5355;&#x7684;&#x5C06; blog &#x7684; url &#x52A0;&#x5165;&#x4E86;&#x5176;&#x4E2D;&#xFF1B;&#x7136;&#x800C;&#xFF0C;&#x5728;&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x90FD;&#x4F1A;&#x5355;&#x72EC;&#x4E3A; blog &#x65B0;&#x5EFA;&#x4E00;&#x4E2A; urls.py &#x6587;&#x4EF6;&#x3002;</p>
+<p>&#x5728;<a href="2015-07-13-first-django-app.html">&#x4E4B;&#x524D;</a>&#xFF0C;&#x6211;&#x4EEC;&#x6DFB;&#x52A0; url &#x65F6;&#xFF0C;&#x4EC5;&#x4EC5;&#x662F;&#x7B80;&#x5355;&#x7684;&#x5C06; blog &#x7684; url &#x52A0;&#x5165;&#x4E86;&#x5176;&#x4E2D;&#xFF1B;&#x7136;&#x800C;&#xFF0C;&#x5728;&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x90FD;&#x4F1A;&#x5355;&#x72EC;&#x4E3A; blog &#x65B0;&#x5EFA;&#x4E00;&#x4E2A; urls.py &#x6587;&#x4EF6;&#x3002;</p>
 <pre><code class="lang-shell">shengan@ubuntu:~/mysite/mysite$ vim urls.py
 </code></pre>
 <pre><code class="lang-python"><span class="hljs-keyword">from</span> django.conf.urls <span class="hljs-keyword">import</span> include, url
@@ -647,7 +647,7 @@ urlpatterns = [
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"urls","level":"1.2.6","depth":2,"next":{"title":"Templates","level":"1.2.7","depth":2,"path":"publish/2015-07-15-django-templates.md","ref":"publish/2015-07-15-django-templates.md","articles":[]},"previous":{"title":"第一个 Django 程序","level":"1.2.5","depth":2,"path":"publish/2015-07-13-first-django-app.md","ref":"publish/2015-07-13-first-django-app.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"publish/2015-07-14-django-urls.md","mtime":"2016-06-03T14:26:09.587Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2016-06-03T14:26:20.409Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"urls","level":"1.2.6","depth":2,"next":{"title":"Templates","level":"1.2.7","depth":2,"path":"publish/2015-07-15-django-templates.md","ref":"publish/2015-07-15-django-templates.md","articles":[]},"previous":{"title":"第一个 Django 程序","level":"1.2.5","depth":2,"path":"publish/2015-07-13-first-django-app.md","ref":"publish/2015-07-13-first-django-app.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"publish/2015-07-14-django-urls.md","mtime":"2016-06-03T15:36:39.842Z","type":"markdown"},"gitbook":{"version":"3.0.3","time":"2016-06-03T15:36:54.914Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -655,10 +655,6 @@ urlpatterns = [
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
